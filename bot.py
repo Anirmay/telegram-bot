@@ -8,7 +8,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 
 # --- IMPORTANT ---
 # This will get the token from Render's settings
-TOKEN = os.environ.get("8237505446:AAFl3L36UtWoQw4LCj5ABwhsVX1aoBV42mY")
+TOKEN = os.environ.get("TELEGRAM_TOKEN")
 
 # --- FLASK (DUMMY SERVER) ---
 # This keeps the Render.com free tier "awake"
